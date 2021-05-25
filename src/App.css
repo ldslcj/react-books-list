@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  height: 200px;
+}
+
+
+p {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+button {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #525eff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 22px;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.25s;
+
+}
+
+button:hover,
+button:focus {
+  opacity: 1;
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
