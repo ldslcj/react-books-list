@@ -10,6 +10,7 @@ const BookForm = (props) => {
         console.log(book_author)
         let newBook = {title:book_title, author:book_author, isbn: Math.random()}
         props.addBook(newBook)
+
     }
     return(
         <div>
@@ -17,13 +18,15 @@ const BookForm = (props) => {
             <form onSubmit = {handleSubmit}>
                 <p>Book Title</p>
                 <input
+                    type = "text"
                     value = {book_title}
                     onChange = {(e) => set_book_title(e.target.value)} />
                 <p>Author</p>
                 <input
+                    type = "text"
                     value = {book_author}
                     onChange = {(e) => set_book_author(e.target.value)} />
-                <button>Add</button>
+                <br></br><button class="add">Add</button>
             </form>
         </div>
     )

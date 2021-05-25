@@ -75,3 +75,34 @@ button:active:after {
   opacity: 1;
   transition: 0s;
 }
+
+.add {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ffc252;
+  color: white;
+  font-weight: bold;
+  padding: 10px 22px;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.25s;
+}
+.add:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
